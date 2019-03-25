@@ -41,6 +41,11 @@ function menuDropdown(){
 	}
 
 }
+
+if(window.innerWidth < 770){
+	menuDropdown();
+}
+
 var inputs=document.querySelectorAll('#myForm input');
 var textArea=document.querySelector('#myForm textarea');
 function goComfirm(th,e){
