@@ -193,7 +193,7 @@
 				</div>
 			</form>
 			<div id="successText" hidden><?php if(get_current_blog_id()==1){
-				echo 'Send Successful';
+				echo 'Successfully sent.<br>Thank you for contacting us.<br>We are now processing your inquiry and contact you within the next three business days.';
 			}else if(get_current_blog_id()==2){
 				echo '表單成功送出';
 			}else {
