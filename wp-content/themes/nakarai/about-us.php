@@ -24,7 +24,11 @@
 				} ?></h2>
 			<table class="properties-table" width="800">
 				<tr>
-					<th><?php if(get_current_blog_id()==1){
+					<th <?php if(get_current_blog_id()==1){
+					echo '';
+					}else {
+						echo 'width="40%"';
+					} ?>><?php if(get_current_blog_id()==1){
 						echo 'Company Name';
 					}else if(get_current_blog_id()==2){
 						echo '公司名稱';
