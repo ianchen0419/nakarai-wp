@@ -264,7 +264,7 @@
 						<a href="<?php echo get_blog_option(2, 'siteurl'); ?>">繁體中文</a>
 					</li>
 					<li>
-						<a href="<?php echo get_blog_option(3, 'siteurl'); ?>">簡體中文</a>
+						<a href="<?php echo get_blog_option(3, 'siteurl'); ?>">简体中文</a>
 					</li>
 				</ul>
 			</li>

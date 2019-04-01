@@ -26,6 +26,10 @@
 	</div>
 	<main id="contact">
 		<div class="wrapper-size">
+			<div class="topimage-area">
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/car_left.jpg" alt="car_left" width="450" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/car_right.jpg" alt="car_right" width="450" />
+			</div>
 			<h2 class="center-title mar_top40"><?php if(get_current_blog_id()==1){
 					echo 'Maintaining best glossy and shinning luster forever.';
 				}else if(get_current_blog_id()==2){
@@ -41,8 +45,8 @@
 						echo '当你第一次遇见到你的摩托车时，你还记得那种兴奋的感觉吗？<br>自从第一次见面以来，那辆摩托车已经成为你重要的夥伴。<br>再回到那时的感动吧。<br>就因为它对你很重要，你需要正确的方式来保护它。<br>NAKARAI电镀保护剂秉持着守护重要夥伴的精神，让您的爱车光泽更持久，更具吸引力。';
 					} ?></p>
 			<div class="topimage-area">
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/topimage_left.jpg" alt="topimage_left" width="400" />
-				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/topimage_right.jpg" alt="topimage_right" width="400" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/topimage_left.jpg" alt="topimage_left" width="450" />
+				<img src="<?php bloginfo('template_directory') ?>/inc/img/top/topimage_right.jpg" alt="topimage_right" width="450" />
 			</div>
 			<div class="quote-area mobile-flex">
 				<div class="quote-content">
